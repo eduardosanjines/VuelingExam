@@ -1,0 +1,8 @@
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Application.Services.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Application.Services.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\obj\Debug\VuelingExam.Application.Services.csprojAssemblyReference.cache
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\obj\Debug\VuelingExam.Application.Services.csproj.CoreCompileInputs.cache
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\obj\Debug\VuelingExam.Application.Services.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\obj\Debug\VuelingExam.Application.Services.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\obj\Debug\VuelingExam.Application.Services.Properties.RServices.resources
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\obj\Debug\VuelingExam.Application.Services.csproj.GenerateResource.cache

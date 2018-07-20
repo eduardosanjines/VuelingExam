@@ -1,0 +1,8 @@
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\VuelingExam.Infrastructure.Repository.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\VuelingExam.Infrastructure.Repository.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\obj\Debug\VuelingExam.Infrastructure.Repository.csprojAssemblyReference.cache
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\obj\Debug\VuelingExam.Infrastructure.Repository.csproj.CoreCompileInputs.cache
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\obj\Debug\VuelingExam.Infrastructure.Repository.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\obj\Debug\VuelingExam.Infrastructure.Repository.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\obj\Debug\VuelingExam.Infrastructure.Repository.Properties.RRepository.resources
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\obj\Debug\VuelingExam.Infrastructure.Repository.csproj.GenerateResource.cache

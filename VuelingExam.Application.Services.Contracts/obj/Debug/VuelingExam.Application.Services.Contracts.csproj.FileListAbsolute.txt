@@ -1,0 +1,8 @@
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services.Contracts\bin\Debug\VuelingExam.Application.Services.Contracts.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services.Contracts\bin\Debug\VuelingExam.Application.Services.Contracts.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services.Contracts\obj\Debug\VuelingExam.Application.Services.Contracts.csprojAssemblyReference.cache
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services.Contracts\obj\Debug\VuelingExam.Application.Services.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services.Contracts\obj\Debug\VuelingExam.Application.Services.Contracts.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services.Contracts\obj\Debug\VuelingExam.Application.Services.Contracts.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services.Contracts\obj\Debug\VuelingExam.Application.Services.Contracts.Properties.RSContracts.resources
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services.Contracts\obj\Debug\VuelingExam.Application.Services.Contracts.csproj.GenerateResource.cache

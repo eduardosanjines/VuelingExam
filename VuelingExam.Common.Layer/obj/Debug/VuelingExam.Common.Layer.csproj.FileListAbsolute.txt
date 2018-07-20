@@ -1,0 +1,6 @@
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\bin\Debug\VuelingExam.Common.Layer.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\bin\Debug\VuelingExam.Common.Layer.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\VuelingExam.Common.Layer.csprojAssemblyReference.cache
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\VuelingExam.Common.Layer.csproj.CoreCompileInputs.cache
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\VuelingExam.Common.Layer.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\VuelingExam.Common.Layer.pdb
