@@ -82,9 +82,9 @@ namespace VuelingExam.Facade.Api.Controllers
                     foreach (DataRow row in dataTable.Rows)
                     {
 
-                        if (row.ItemArray.Equals(id)) {
+                        if (row.ItemArray.Contains(id)) {
 
-                            lista.Add(row);
+                            lista.Add(row.ItemArray);
                         }
 
                     }
