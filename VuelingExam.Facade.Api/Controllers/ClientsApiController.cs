@@ -22,6 +22,7 @@ namespace VuelingExam.Facade.Api.Controllers
         private readonly IService<ClientsDto> clientsDto;
         LogMan log = new LogMan();
         static HttpClient client;
+        List<Object> lista = new List<object>();
         public ClientsApiController() : this(new ClientsService())
         {
 
@@ -38,40 +39,31 @@ namespace VuelingExam.Facade.Api.Controllers
         }
 
         // GET: api/ClientsApi
-        public async Task<ClientsDto> GetAsync()
+        public async Task<Object> GetAsync()
         {
-            List<string> listClients = new List<string>();
-            ClientsDto clientsDto = new ClientsDto();
             HttpResponseMessage res = client.GetAsync(WebConfigurationManager.AppSettings["localhost"]).Result;
             res.EnsureSuccessStatusCode();
- 
+            
             try
             {
                 if (res.IsSuccessStatusCode)
             {
                     var clientsJsonString = await res.Content.ReadAsStringAsync();
-
                     DataSet dataSet = JsonConvert.DeserializeObject<DataSet>(clientsJsonString);
                     DataTable dataTable = dataSet.Tables["clients"];
                     
                     foreach (DataRow row in dataTable.Rows)
                     {
-                        Console.WriteLine(row.ItemArray);
-                        listClients.Add(row.ItemArray.ToString());
-                        clientsDto = new ClientsDto(row);
+                    lista.Add(row);
                     }
-
-                    //var deserialized = JsonConvert.DeserializeObject<List<ClientsDto>>(listClients.ToString());
-                    //listClientsDto = listClients;
                 }
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 log.logError(ex);
                 throw new VuelingException("", ex);
             }
-      
-
-            return clientsDto;
+            return lista;
 
         }
 

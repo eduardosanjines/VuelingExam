@@ -13,7 +13,7 @@ namespace VuelingExam.Application.Dto
         {
         }
 
-        public ClientsDto(DataRow table) { }
+        public ClientsDto(Object[] objeto) { }
 
         public ClientsDto(Guid id, string name, string email, string role)
         {
