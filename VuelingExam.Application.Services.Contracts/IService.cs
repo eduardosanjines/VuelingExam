@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace VuelingExam.Application.Services.Contracts
 {
-    public class Class1
+    public interface IService<T>
     {
+        List<T> GetAll();
+        T GetTById(Guid id);
+        T GetTByUserName(T username);
     }
 }

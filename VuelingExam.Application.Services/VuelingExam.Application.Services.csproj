@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="CompanyService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\RServices.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -53,6 +53,16 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>RServices.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VuelingExam.Application.Dto\VuelingExam.Application.Dto.csproj">
+      <Project>{2e2a822d-fda3-44ff-9089-41db10b0b3cd}</Project>
+      <Name>VuelingExam.Application.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VuelingExam.Application.Services.Contracts\VuelingExam.Application.Services.Contracts.csproj">
+      <Project>{9630df95-a546-417f-8999-e53e86351697}</Project>
+      <Name>VuelingExam.Application.Services.Contracts</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
