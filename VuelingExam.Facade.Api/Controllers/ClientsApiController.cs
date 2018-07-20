@@ -26,7 +26,7 @@ namespace VuelingExam.Facade.Api.Controllers
 
             client = new HttpClient
             {
-                BaseAddress = new Uri("http://www.mocky.io/v2/5808862710000087232b75ac")
+                BaseAddress = new Uri(WebConfigurationManager.AppSettings["localhost"])
             };
 
         }
@@ -39,21 +39,21 @@ namespace VuelingExam.Facade.Api.Controllers
         // GET: api/ClientsApi
         public async Task<List<ClientsEntity>> GetAsync()
         {
+            List<string> listClients = new List<string>();
             List<ClientsEntity> listClientsDto = new List<ClientsEntity>();
             HttpResponseMessage res = client.GetAsync(WebConfigurationManager.AppSettings["localhost"]).Result;
             res.EnsureSuccessStatusCode();
-            if (res.IsSuccessStatusCode)
-            {
-
-            }
+ 
             try
             {
+                if (res.IsSuccessStatusCode)
+            {
+                    var alumnoJsonString = await res.Content.ReadAsStringAsync();
 
-                var alumnoJsonString = await res.Content.ReadAsStringAsync();
-                var deserialized = JsonConvert.DeserializeObject<List<ClientsEntity>>(alumnoJsonString);
-                listClientsDto = deserialized;
-              
 
+                    var deserialized = JsonConvert.DeserializeObject<List<ClientsEntity>>(alumnoJsonString);
+                    listClientsDto = deserialized;
+            }
             }
             catch (Exception ex) {
                 log.logError(ex);
