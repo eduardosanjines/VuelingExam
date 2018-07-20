@@ -61,6 +61,15 @@ namespace VuelingExam.Infrastructure.Repository.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Error al actualizar la BBDD. .
+        /// </summary>
+        internal static string DbUpdate {
+            get {
+                return ResourceManager.GetString("DbUpdate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a http://www.mocky.io/v2/5808862710000087232b75ac.
         /// </summary>
         internal static string UrlClients {

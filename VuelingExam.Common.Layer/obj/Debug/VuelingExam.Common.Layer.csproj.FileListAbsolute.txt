@@ -4,3 +4,8 @@ C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\V
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\VuelingExam.Common.Layer.csproj.CoreCompileInputs.cache
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\VuelingExam.Common.Layer.dll
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\VuelingExam.Common.Layer.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\bin\Debug\log4net.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\bin\Debug\log4net.xml
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\VuelingExam.Common.Layer.Properties.RCommonLayer.resources
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\VuelingExam.Common.Layer.csproj.GenerateResource.cache
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\VuelingExam.Common.Layer.csproj.CopyComplete

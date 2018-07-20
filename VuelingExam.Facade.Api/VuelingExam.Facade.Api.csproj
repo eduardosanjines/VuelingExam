@@ -46,6 +46,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -183,7 +186,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
-    <Compile Include="Controllers\CompanyController.cs" />
+    <Compile Include="Controllers\ClientsApiController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -277,6 +280,28 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VuelingExam.Application.Dto\VuelingExam.Application.Dto.csproj">
+      <Project>{2E2A822D-FDA3-44FF-9089-41DB10B0B3CD}</Project>
+      <Name>VuelingExam.Application.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VuelingExam.Application.Services.Contracts\VuelingExam.Application.Services.Contracts.csproj">
+      <Project>{9630DF95-A546-417F-8999-E53E86351697}</Project>
+      <Name>VuelingExam.Application.Services.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VuelingExam.Application.Services\VuelingExam.Application.Services.csproj">
+      <Project>{6D2A0C73-DC1A-4239-8502-5AB10D536D20}</Project>
+      <Name>VuelingExam.Application.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VuelingExam.Common.Layer\VuelingExam.Common.Layer.csproj">
+      <Project>{61FF2AC9-0C15-4642-BAC3-AF4C7A1437DA}</Project>
+      <Name>VuelingExam.Common.Layer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VuelingExam.Domain.Entities\VuelingExam.Domain.Entities.csproj">
+      <Project>{2335851A-43FF-4E4A-BC98-0B6CE1DD63AC}</Project>
+      <Name>VuelingExam.Domain.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
