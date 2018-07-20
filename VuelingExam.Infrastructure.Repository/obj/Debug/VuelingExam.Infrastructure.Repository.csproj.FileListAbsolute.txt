@@ -19,3 +19,7 @@ C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repositor
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\EntityFramework.SqlServerCompact.dll
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\System.Data.SqlServerCe.dll
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\VuelingExam.Common.Layer.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\VuelingExam.Common.Layer.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\Newtonsoft.Json.xml

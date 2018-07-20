@@ -39,6 +39,9 @@
     <Reference Include="EntityFramework.SqlServerCompact, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.SqlServerCompact.6.2.0\lib\net45\EntityFramework.SqlServerCompact.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -85,6 +88,10 @@
     <Compile Include="Repository\CompanyRepository.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\VuelingExam.Common.Layer\VuelingExam.Common.Layer.csproj">
+      <Project>{61ff2ac9-0c15-4642-bac3-af4c7a1437da}</Project>
+      <Name>VuelingExam.Common.Layer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\VuelingExam.Domain.Entities\VuelingExam.Domain.Entities.csproj">
       <Project>{2335851a-43ff-4e4a-bc98-0b6ce1dd63ac}</Project>
       <Name>VuelingExam.Domain.Entities</Name>

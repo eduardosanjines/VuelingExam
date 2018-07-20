@@ -20,3 +20,5 @@ C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Infrastructure.Repository.pdb
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Infrastructure.Repository.dll.config
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\EntityFramework.xml
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\Newtonsoft.Json.xml

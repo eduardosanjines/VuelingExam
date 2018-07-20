@@ -59,5 +59,23 @@ namespace VuelingExam.Infrastructure.Repository.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a http://www.mocky.io/v2/5808862710000087232b75ac.
+        /// </summary>
+        internal static string UrlClients {
+            get {
+                return ResourceManager.GetString("UrlClients", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a http://www.mocky.io/v2/580891a4100000e8242b75c5.
+        /// </summary>
+        internal static string UrlPolicies {
+            get {
+                return ResourceManager.GetString("UrlPolicies", resourceCulture);
+            }
+        }
     }
 }
