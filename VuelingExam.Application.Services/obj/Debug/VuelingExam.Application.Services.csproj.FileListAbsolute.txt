@@ -6,3 +6,8 @@ C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\obj
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\obj\Debug\VuelingExam.Application.Services.pdb
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\obj\Debug\VuelingExam.Application.Services.Properties.RServices.resources
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\obj\Debug\VuelingExam.Application.Services.csproj.GenerateResource.cache
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Application.Dto.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Application.Services.Contracts.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Application.Dto.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Application.Services.Contracts.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\obj\Debug\VuelingExam.Application.Services.csproj.CopyComplete

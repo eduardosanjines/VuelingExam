@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VuelingExamModelStoreContainer" CdmEntityContainer="VuelingExamEntities">
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="VuelingExamModel.Clients">
+        <MappingFragment StoreEntitySet="Clients">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="role" ColumnName="role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Policies">
+      <EntityTypeMapping TypeName="VuelingExamModel.Policies">
+        <MappingFragment StoreEntitySet="Policies">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="amountTInsured" ColumnName="amountTInsured" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="inceptionDate" ColumnName="inceptionDate" />
+          <ScalarProperty Name="installmentPayment" ColumnName="installmentPayment" />
+          <ScalarProperty Name="clientId" ColumnName="clientId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

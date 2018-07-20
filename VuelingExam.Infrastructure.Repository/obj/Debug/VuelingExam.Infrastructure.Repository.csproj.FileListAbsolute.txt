@@ -6,3 +6,9 @@ C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repositor
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\obj\Debug\VuelingExam.Infrastructure.Repository.pdb
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\obj\Debug\VuelingExam.Infrastructure.Repository.Properties.RRepository.resources
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\obj\Debug\VuelingExam.Infrastructure.Repository.csproj.GenerateResource.cache
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\VuelingExam.Infrastructure.Repository.dll.config
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\EntityFramework.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\EntityFramework.xml
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\obj\Debug\VuelingExam.Infrastructure.Repository.csproj.CopyComplete

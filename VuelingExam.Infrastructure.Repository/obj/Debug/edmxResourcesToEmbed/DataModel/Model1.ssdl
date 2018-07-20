@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VuelingExamModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="role" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Policies">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="amountTInsured" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="inceptionDate" Type="datetime" />
+    <Property Name="installmentPayment" Type="varchar" MaxLength="50" />
+    <Property Name="clientId" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Policies_Clients">
+    <End Role="Clients" Type="Self.Clients" Multiplicity="0..1" />
+    <End Role="Policies" Type="Self.Policies" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Policies">
+        <PropertyRef Name="clientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VuelingExamModelStoreContainer">
+    <EntitySet Name="Clients" EntityType="Self.Clients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Policies" EntityType="Self.Policies" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Policies_Clients" Association="Self.FK_Policies_Clients">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Policies" EntitySet="Policies" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
