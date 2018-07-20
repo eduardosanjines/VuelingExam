@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -37,10 +38,10 @@ namespace VuelingExam.Facade.Api.Controllers
         }
 
         // GET: api/ClientsApi
-        public async Task<List<ClientsEntity>> GetAsync()
+        public async Task<ClientsDto> GetAsync()
         {
             List<string> listClients = new List<string>();
-            List<ClientsEntity> listClientsDto = new List<ClientsEntity>();
+            ClientsDto clientsDto = new ClientsDto();
             HttpResponseMessage res = client.GetAsync(WebConfigurationManager.AppSettings["localhost"]).Result;
             res.EnsureSuccessStatusCode();
  
@@ -48,18 +49,29 @@ namespace VuelingExam.Facade.Api.Controllers
             {
                 if (res.IsSuccessStatusCode)
             {
-                    var alumnoJsonString = await res.Content.ReadAsStringAsync();
+                    var clientsJsonString = await res.Content.ReadAsStringAsync();
 
+                    DataSet dataSet = JsonConvert.DeserializeObject<DataSet>(clientsJsonString);
+                    DataTable dataTable = dataSet.Tables["clients"];
+                    
+                    foreach (DataRow row in dataTable.Rows)
+                    {
+                        Console.WriteLine(row.ItemArray);
+                        listClients.Add(row.ItemArray.ToString());
+                        clientsDto = new ClientsDto(row);
+                    }
 
-                    var deserialized = JsonConvert.DeserializeObject<List<ClientsEntity>>(alumnoJsonString);
-                    listClientsDto = deserialized;
-            }
+                    //var deserialized = JsonConvert.DeserializeObject<List<ClientsDto>>(listClients.ToString());
+                    //listClientsDto = listClients;
+                }
             }
             catch (Exception ex) {
                 log.logError(ex);
                 throw new VuelingException("", ex);
             }
-            return listClientsDto.ToList();
+      
+
+            return clientsDto;
 
         }
 
