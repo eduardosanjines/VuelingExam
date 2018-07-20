@@ -18,6 +18,7 @@ namespace VuelingExam.Infrastructure.Repository.Repository
     public class ClientsRepository : IRepository<ClientsEntity>
     {
         private readonly VuelingExamEntities db;
+        LogMan log = new LogMan();
         public ClientsRepository() { }
 
         public List<ClientsEntity> GetAll()
@@ -31,7 +32,7 @@ namespace VuelingExam.Infrastructure.Repository.Repository
             }
             catch (DbUpdateConcurrencyException ex)
             {
-               // log.logError(ex);
+                log.logError(ex);
                 throw new VuelingException(RRepository.DbUpdate, ex);
             }
             var config = new MapperConfiguration(cfg => cfg.CreateMap<Clients, ClientsEntity>());

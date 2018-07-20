@@ -25,7 +25,6 @@ namespace VuelingExam.Facade.Api.Controllers
         List<Object> lista = new List<object>();
         public ClientsApiController() : this(new ClientsService())
         {
-
             client = new HttpClient
             {
                 BaseAddress = new Uri(WebConfigurationManager.AppSettings["localhost"])
@@ -68,9 +67,35 @@ namespace VuelingExam.Facade.Api.Controllers
         }
 
         // GET: api/ClientsApi/5
-        public string Get(int id)
+        public async Task<Object> GetAsync(string id)
         {
-            return "value";
+            HttpResponseMessage res = client.GetAsync(WebConfigurationManager.AppSettings["localhost"]).Result;
+            res.EnsureSuccessStatusCode();
+            try
+            {
+                if (res.IsSuccessStatusCode)
+                {
+                    var clientsJsonString = await res.Content.ReadAsStringAsync();
+                    DataSet dataSet = JsonConvert.DeserializeObject<DataSet>(clientsJsonString);
+                    DataTable dataTable = dataSet.Tables["clients"];
+
+                    foreach (DataRow row in dataTable.Rows)
+                    {
+
+                        if (row.ItemArray.Equals(id)) {
+
+                            lista.Add(row);
+                        }
+
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                log.logError(ex);
+                throw new VuelingException("", ex);
+            }
+           return lista;
         }
 
         // POST: api/ClientsApi
