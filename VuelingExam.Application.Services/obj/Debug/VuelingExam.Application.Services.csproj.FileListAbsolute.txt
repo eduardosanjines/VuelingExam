@@ -11,3 +11,12 @@ C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Application.Dto.pdb
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Application.Services.Contracts.pdb
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\obj\Debug\VuelingExam.Application.Services.csproj.CopyComplete
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Domain.Entities.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Infrastructure.Repository.Contracts.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Infrastructure.Repository.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\EntityFramework.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Domain.Entities.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Infrastructure.Repository.Contracts.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Infrastructure.Repository.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Infrastructure.Repository.dll.config
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\EntityFramework.xml

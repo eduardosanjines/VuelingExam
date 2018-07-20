@@ -63,6 +63,18 @@
       <Project>{9630df95-a546-417f-8999-e53e86351697}</Project>
       <Name>VuelingExam.Application.Services.Contracts</Name>
     </ProjectReference>
+    <ProjectReference Include="..\VuelingExam.Domain.Entities\VuelingExam.Domain.Entities.csproj">
+      <Project>{2335851A-43FF-4E4A-BC98-0B6CE1DD63AC}</Project>
+      <Name>VuelingExam.Domain.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VuelingExam.Infrastructure.Repository.Contracts\VuelingExam.Infrastructure.Repository.Contracts.csproj">
+      <Project>{F0C11D81-07DC-4F7D-8E8A-121766043588}</Project>
+      <Name>VuelingExam.Infrastructure.Repository.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VuelingExam.Infrastructure.Repository\VuelingExam.Infrastructure.Repository.csproj">
+      <Project>{B0F13A7B-EDD9-48D6-B257-80F113E4332E}</Project>
+      <Name>VuelingExam.Infrastructure.Repository</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

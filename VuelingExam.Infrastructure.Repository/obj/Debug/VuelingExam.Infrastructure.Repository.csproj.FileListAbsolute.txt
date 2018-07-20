@@ -16,3 +16,6 @@ C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repositor
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\VuelingExam.Infrastructure.Repository.Contracts.dll
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\VuelingExam.Domain.Entities.pdb
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\VuelingExam.Infrastructure.Repository.Contracts.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Infrastructure.Repository\bin\Debug\EntityFramework.SqlServerCompact.xml

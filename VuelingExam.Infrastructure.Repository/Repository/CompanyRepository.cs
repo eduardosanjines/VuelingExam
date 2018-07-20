@@ -10,6 +10,8 @@ namespace VuelingExam.Infrastructure.Repository.Repository
 {
     public class CompanyRepository : IRepository<CompanyEntity>
     {
+        public CompanyRepository() { }
+
         public List<CompanyEntity> GetAll()
         {
             throw new NotImplementedException();
