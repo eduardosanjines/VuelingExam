@@ -78,7 +78,16 @@
     </Compile>
     <Compile Include="Repository\CompanyRepository.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\VuelingExam.Domain.Entities\VuelingExam.Domain.Entities.csproj">
+      <Project>{2335851a-43ff-4e4a-bc98-0b6ce1dd63ac}</Project>
+      <Name>VuelingExam.Domain.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VuelingExam.Infrastructure.Repository.Contracts\VuelingExam.Infrastructure.Repository.Contracts.csproj">
+      <Project>{f0c11d81-07dc-4f7d-8e8a-121766043588}</Project>
+      <Name>VuelingExam.Infrastructure.Repository.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\RRepository.resx">
       <Generator>ResXFileCodeGenerator</Generator>

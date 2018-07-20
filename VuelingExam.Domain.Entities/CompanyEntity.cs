@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace VuelingExam.Domain.Entities
 {
-    public class PoliciesEntity
+    public class CompanyEntity
     {
         Guid Id { get; set; }
+        string name { get; set; }
+        string role { get; set; }
         Decimal AmountInsured { get; set; }
         string Email { get; set; }
         DateTime InceptionDate { get; set; }

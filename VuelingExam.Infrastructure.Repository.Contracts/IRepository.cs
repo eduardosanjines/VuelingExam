@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace VuelingExam.Infrastructure.Repository.Contracts
 {
-    public interface IRepository
+    public interface IRepository<T>
     {
-    }
+        List<T> GetAll();
+        T GetTById(Guid id);
+        T GetTByUserName(T username);
+}
 }
