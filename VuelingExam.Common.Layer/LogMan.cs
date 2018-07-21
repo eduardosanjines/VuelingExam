@@ -10,7 +10,7 @@ namespace VuelingExam.Common.Layer
 {
     public class LogMan
     {
-        public static readonly ILog Log =
+        public static readonly ILog log =
       LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         public void logFatal(Exception ex)
         {
@@ -19,10 +19,10 @@ namespace VuelingExam.Common.Layer
             Thread.Sleep(TimeSpan.FromSeconds(secs)); // Sleep some secs
         }
 
-        public void logError(Exception ex)
+        public void LogError(Exception ex)
         {
             var secs = 3;
-            Console.WriteLine(ex);
+            log.Error(ex);
             Thread.Sleep(TimeSpan.FromSeconds(secs)); // Sleep some secs
         }
         public void LogWarn(Exception ex)

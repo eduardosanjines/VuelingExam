@@ -17,34 +17,24 @@ namespace VuelingExam.Infrastructure.Repository.Repository
 {
     public class ClientsRepository : IRepository<ClientsEntity>
     {
-        private readonly VuelingExamEntities db;
-        LogMan log = new LogMan();
+        //private readonly VuelingExamEntities db;
+        //LogMan log = new LogMan();
         public ClientsRepository() { }
 
         public List<ClientsEntity> GetAll()
         {
             List<ClientsEntity> clientsEntity = null;
-            IQueryable<Clients> listClients;
 
-            try
-            {
-                listClients = db.Clients;
-            }
-            catch (DbUpdateConcurrencyException ex)
-            {
-                log.logError(ex);
-                throw new VuelingException(RRepository.DbUpdate, ex);
-            }
-            var config = new MapperConfiguration(cfg => cfg.CreateMap<Clients, ClientsEntity>());
+            var config = new MapperConfiguration(cfg => cfg.CreateMap<ClientsEntity, PoliciesEntity>());
             IMapper iMapper = config.CreateMapper();
 
-            clientsEntity = iMapper.Map<List<ClientsEntity>>(listClients);
+            var en = iMapper.Map<List<ClientsEntity>>(clientsEntity);
 
-            return clientsEntity;
+            return en;
 
         }
 
-        public ClientsEntity GetTById(Guid id)
+        public ClientsEntity GetTById(string id)
         {
             throw new NotImplementedException();
         }

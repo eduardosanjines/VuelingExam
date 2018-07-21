@@ -9,7 +9,7 @@ namespace VuelingExam.Application.Services.Contracts
     public interface IService<T>
     {
         List<T> GetAll();
-        T GetTById(Guid id);
+        T GetTById(string id);
         T GetTByUserName(T username);
     }
 }

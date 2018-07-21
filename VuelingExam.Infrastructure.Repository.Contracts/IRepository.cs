@@ -9,7 +9,7 @@ namespace VuelingExam.Infrastructure.Repository.Contracts
     public interface IRepository<T>
     {
         List<T> GetAll();
-        T GetTById(Guid id);
+        T GetTById(string id);
         T GetTByUserName(T username);
 }
 }

@@ -8,12 +8,12 @@ namespace VuelingExam.Domain.Entities
 {
     public class PoliciesEntity
     {
-        Guid Id { get; set; }
+        string Id { get; set; }
         Decimal AmountInsured { get; set; }
         string Email { get; set; }
         DateTime InceptionDate { get; set; }
         Boolean InstallmentPayment { get; set; }
-        int ClientId { get; set; }
+        public string ClientId { get; set; }
 
     }
 }

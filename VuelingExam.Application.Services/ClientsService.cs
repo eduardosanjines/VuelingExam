@@ -35,7 +35,8 @@ namespace VuelingExam.Application.Services
             return clientsDto;
         }
 
-        public ClientsDto GetTById(Guid id)
+
+        public ClientsDto GetTById(string id)
         {
             throw new NotImplementedException();
         }

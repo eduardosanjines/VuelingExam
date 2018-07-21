@@ -22,6 +22,7 @@ namespace VuelingExam.Facade.Api.Controllers
         private readonly IService<ClientsDto> clientsDto;
         LogMan log = new LogMan();
         static HttpClient client;
+        static HttpResponseMessage res;
         List<Object> lista = new List<object>();
         public ClientsApiController() : this(new ClientsService())
         {
@@ -40,7 +41,7 @@ namespace VuelingExam.Facade.Api.Controllers
         // GET: api/ClientsApi
         public async Task<Object> GetAll()
         {
-            HttpResponseMessage res = client.GetAsync(WebConfigurationManager.AppSettings["clientsWeb"]).Result;
+            res = client.GetAsync(WebConfigurationManager.AppSettings["clientsWeb"]).Result;
             res.EnsureSuccessStatusCode();
             
             try
@@ -59,7 +60,7 @@ namespace VuelingExam.Facade.Api.Controllers
             }
             catch (Exception ex)
             {
-                log.logError(ex);
+                log.LogError(ex);
                 throw new VuelingException("", ex);
             }
             return lista;
@@ -69,7 +70,7 @@ namespace VuelingExam.Facade.Api.Controllers
         // GET: api/ClientsApi/5
         public async Task<Object> GetById(string id)
         {
-            HttpResponseMessage res = client.GetAsync(WebConfigurationManager.AppSettings["clientsWeb"]).Result;
+            res = client.GetAsync(WebConfigurationManager.AppSettings["clientsWeb"]).Result;
             res.EnsureSuccessStatusCode();
             try
             {
@@ -81,7 +82,6 @@ namespace VuelingExam.Facade.Api.Controllers
 
                     foreach (DataRow row in dataTable.Rows)
                     {
-
                         if (row.ItemArray.Contains(id)) {
 
                             lista.Add(row.ItemArray);
@@ -92,7 +92,7 @@ namespace VuelingExam.Facade.Api.Controllers
             }
             catch (Exception ex)
             {
-                log.logError(ex);
+                log.LogError(ex);
                 throw new VuelingException("", ex);
             }
            return lista;
@@ -101,7 +101,7 @@ namespace VuelingExam.Facade.Api.Controllers
         // GET: api/ClientsApi/username
         public async Task<Object> GetByUserName(string username)
         {
-            HttpResponseMessage res = client.GetAsync(WebConfigurationManager.AppSettings["clientsWeb"]).Result;
+            res = client.GetAsync(WebConfigurationManager.AppSettings["clientsWeb"]).Result;
             res.EnsureSuccessStatusCode();
             try
             {
@@ -124,7 +124,7 @@ namespace VuelingExam.Facade.Api.Controllers
             }
             catch (Exception ex)
             {
-                log.logError(ex);
+                log.LogError(ex);
                 throw new VuelingException("", ex);
             }
             return lista;

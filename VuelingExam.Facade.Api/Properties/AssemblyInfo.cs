@@ -14,6 +14,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
+[assembly: log4net.Config.XmlConfigurator(Watch = true)]
+
 // Si configura ComVisible como falso, los tipos de este ensamblado no se hacen visibles
 // para componentes COM.  Si necesita acceder a un tipo de este ensamblado desde
 // COM, establezca el atributo ComVisible en True en este tipo.
