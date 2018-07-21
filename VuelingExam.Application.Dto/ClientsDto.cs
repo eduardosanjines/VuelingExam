@@ -9,23 +9,23 @@ namespace VuelingExam.Application.Dto
 {
     public class ClientsDto
     {
-        public ClientsDto()
+        public ClientsDto(Object id, Object name, Object email, Object role)
         {
+            this.Id = id;
+            this.Name = name;
+            this.Email = email;
+            this.Role = role;
         }
 
         public ClientsDto(Object[] objeto) { }
 
-        public ClientsDto(Guid id, string name, string email, string role)
+        public ClientsDto()
         {
-            Id = id;
-            Name = name;
-            Email = email;
-            Role = role;
         }
 
-        public Guid Id { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string Role { get; set; }
+        public Object Id { get; set; }
+        public Object Name { get; set; }
+        public Object Email { get; set; }
+        public Object Role { get; set; }
     }
 }

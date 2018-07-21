@@ -8,11 +8,20 @@ namespace VuelingExam.Application.Dto
 {
     public class PoliciesDto
     {
-        Guid Id { get; set; }
-        Decimal AmountInsured { get; set; }
-        string Email { get; set; }
-        DateTime InceptionDate { get; set; }
-        Boolean InstallmentPayment { get; set; }
-        int ClientId { get; set; }
+        public PoliciesDto(Object objeto)
+        {
+        }
+
+        public PoliciesDto(Object id, Object amountInsured, Object email, Object inceptionDate, Object installmentPayment, Object clientId)
+        {
+            this.Id = id;
+        }
+
+        public Object Id { get; set; }
+        public Object AmountInsured { get; set; }
+        public Object Email { get; set; }
+        public Object InceptionDate { get; set; }
+        public Object InstallmentPayment { get; set; }
+        public Object ClientId { get; set; }
     }
 }

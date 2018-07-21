@@ -38,9 +38,9 @@ namespace VuelingExam.Facade.Api.Controllers
         }
 
         // GET: api/ClientsApi
-        public async Task<Object> GetAsync()
+        public async Task<Object> GetAll()
         {
-            HttpResponseMessage res = client.GetAsync(WebConfigurationManager.AppSettings["localhost"]).Result;
+            HttpResponseMessage res = client.GetAsync(WebConfigurationManager.AppSettings["clientsWeb"]).Result;
             res.EnsureSuccessStatusCode();
             
             try
@@ -67,9 +67,9 @@ namespace VuelingExam.Facade.Api.Controllers
         }
 
         // GET: api/ClientsApi/5
-        public async Task<Object> GetAsync(string id)
+        public async Task<Object> GetById(string id)
         {
-            HttpResponseMessage res = client.GetAsync(WebConfigurationManager.AppSettings["localhost"]).Result;
+            HttpResponseMessage res = client.GetAsync(WebConfigurationManager.AppSettings["clientsWeb"]).Result;
             res.EnsureSuccessStatusCode();
             try
             {
@@ -98,19 +98,36 @@ namespace VuelingExam.Facade.Api.Controllers
            return lista;
         }
 
-        // POST: api/ClientsApi
-        public void Post([FromBody]string value)
+        // GET: api/ClientsApi/username
+        public async Task<Object> GetByUserName(string username)
         {
-        }
+            HttpResponseMessage res = client.GetAsync(WebConfigurationManager.AppSettings["clientsWeb"]).Result;
+            res.EnsureSuccessStatusCode();
+            try
+            {
+                if (res.IsSuccessStatusCode)
+                {
+                    var clientsJsonString = await res.Content.ReadAsStringAsync();
+                    DataSet dataSet = JsonConvert.DeserializeObject<DataSet>(clientsJsonString);
+                    DataTable dataTable = dataSet.Tables["clients"];
 
-        // PUT: api/ClientsApi/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
+                    foreach (DataRow row in dataTable.Rows)
+                    {
 
-        // DELETE: api/ClientsApi/5
-        public void Delete(int id)
-        {
+                        if (row.ItemArray.Contains(username))
+                        {
+                            lista.Add(row.ItemArray);
+                        }
+
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                log.logError(ex);
+                throw new VuelingException("", ex);
+            }
+            return lista;
         }
     }
 }
