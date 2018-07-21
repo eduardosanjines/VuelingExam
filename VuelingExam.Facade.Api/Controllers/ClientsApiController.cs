@@ -19,23 +19,17 @@ namespace VuelingExam.Facade.Api.Controllers
 {
     public class ClientsApiController : ApiController
     {
-        private readonly IService<ClientsDto> clientsDto;
         LogMan log = new LogMan();
         static HttpClient client;
         static HttpResponseMessage res;
         List<Object> lista = new List<object>();
-        public ClientsApiController() : this(new ClientsService())
+        public ClientsApiController() 
         {
             client = new HttpClient
             {
                 BaseAddress = new Uri(WebConfigurationManager.AppSettings["localhost"])
             };
 
-        }
-
-        public ClientsApiController(ClientsService clientsService)
-        {
-            this.clientsDto = clientsService;
         }
 
         // GET: api/ClientsApi
@@ -57,6 +51,12 @@ namespace VuelingExam.Facade.Api.Controllers
                     lista.Add(row);
                     }
                 }
+
+                else
+                {
+                    log.checkHttpStatus();
+                }
+
             }
             catch (Exception ex)
             {
@@ -113,7 +113,6 @@ namespace VuelingExam.Facade.Api.Controllers
 
                     foreach (DataRow row in dataTable.Rows)
                     {
-
                         if (row.ItemArray.Contains(username))
                         {
                             lista.Add(row.ItemArray);

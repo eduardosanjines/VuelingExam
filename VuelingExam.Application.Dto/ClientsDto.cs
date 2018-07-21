@@ -19,6 +19,8 @@ namespace VuelingExam.Application.Dto
 
         public ClientsDto(Object[] objeto) { }
 
+        public ClientsDto(DataRow row) { }
+
         public ClientsDto()
         {
         }

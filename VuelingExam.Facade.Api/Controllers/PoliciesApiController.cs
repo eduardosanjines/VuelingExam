@@ -19,14 +19,14 @@ namespace VuelingExam.Facade.Api.Controllers
 {
     public class PoliciesApiController : ApiController
     {
+        LogMan log = new LogMan();
         static HttpClient client;
         static HttpResponseMessage resClients;
         static HttpResponseMessage resPolicies;
         List<Object> lClients = new List<object>();
         List<Object> lPolicies = new List<object>();
-        static List<Object> lResultado = new List<object>();
-        LogMan log = new LogMan();
-
+        List<Object> lnqClients = new List<object>();
+        List<Object> lnqPolicies = new List<object>();
 
         public PoliciesApiController()
         {
@@ -56,21 +56,31 @@ namespace VuelingExam.Facade.Api.Controllers
                     DataSet dataSetClients = JsonConvert.DeserializeObject<DataSet>(clientsJsonString);
                     DataSet dataSetPolicies = JsonConvert.DeserializeObject<DataSet>(policiesJsonString);
                     DataTable dataTableClients = dataSetClients.Tables["clients"];
-                    DataTable dataTablePolicies = dataSetClients.Tables["policies"];
+                    DataTable dataTablePolicies = dataSetPolicies.Tables["policies"];
 
                     foreach (DataRow cl in dataTableClients.Rows)
                     {
-                        lClients.Add(cl.ItemArray);
+                        lClients.Add(cl);
 
                     }
                     foreach (DataRow pl in dataTablePolicies.Rows)
                     {
-                        lPolicies.Add(pl.ItemArray);
+                        lPolicies.Add(pl);
                     }
 
-                    lResultado = lClients.Except(lPolicies).ToList();
-                    //   var list2 = lPolicies.Except(lClients).ToList();
+                    //lnqClients = lClients.Except(lPolicies).ToList();
+                    //lnqPolicies = lPolicies.Except(lClients).ToList();
 
+                    if (lPolicies.Contains("clientId") == lPolicies.Contains("id"))
+                    {
+                        //I can't compare List
+                        lClients = lPolicies;
+
+                    }
+
+                }
+                else {
+                    log.checkHttpStatus();
 
                 }
 

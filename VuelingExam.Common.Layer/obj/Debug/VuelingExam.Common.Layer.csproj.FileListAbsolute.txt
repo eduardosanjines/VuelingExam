@@ -8,3 +8,4 @@ C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\V
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\VuelingExam.Common.Layer.csproj.CopyComplete
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\VuelingExam.Common.Layer.dll
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\VuelingExam.Common.Layer.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Common.Layer\obj\Debug\VuelingExam.Common.Layer.csprojAssemblyReference.cache

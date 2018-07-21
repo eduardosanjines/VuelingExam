@@ -59,5 +59,14 @@ namespace VuelingExam.Common.Layer.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Página fuera de linea o no accesible.
+        /// </summary>
+        internal static string OffLine {
+            get {
+                return ResourceManager.GetString("OffLine", resourceCulture);
+            }
+        }
     }
 }

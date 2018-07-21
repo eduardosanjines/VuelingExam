@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using VuelingExam.Common.Layer.Properties;
 
 namespace VuelingExam.Common.Layer
 {
@@ -43,5 +44,12 @@ namespace VuelingExam.Common.Layer
             Console.WriteLine(ex);
             Thread.Sleep(TimeSpan.FromSeconds(secs)); // Sleep some secs
         }
+
+        public void checkHttpStatus() {
+            var secs = 3;
+            log.Error(RCommonLayer.OffLine);
+            Thread.Sleep(TimeSpan.FromSeconds(secs)); // Sleep some secs
+        }
+
     }
 }

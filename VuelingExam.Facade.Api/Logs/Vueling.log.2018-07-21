@@ -1,0 +1,36 @@
+﻿2018-07-21 19:05:53,725 ERROR [9] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 66
+2018-07-21 19:13:42,326 ERROR [8] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 66
+2018-07-21 19:14:08,159 ERROR [7] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 66
+2018-07-21 19:14:30,667 ERROR [7] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 66
+2018-07-21 20:55:00,347 ERROR [5] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 66
+2018-07-21 21:21:07,521 ERROR [7] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 66
+2018-07-21 22:05:29,395 ERROR [15] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 66
+2018-07-21 22:07:20,784 ERROR [6] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 66
+2018-07-21 22:08:55,085 ERROR [9] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 66
+2018-07-21 22:09:16,583 ERROR [16] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 66
+2018-07-21 22:09:36,172 ERROR [9] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 66
+2018-07-21 22:10:27,580 ERROR [8] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 66
+2018-07-21 22:11:21,389 ERROR [8] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 66
+2018-07-21 22:11:36,577 ERROR [8] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 66
+2018-07-21 22:15:01,100 ERROR [10] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 67
+2018-07-21 22:18:03,043 ERROR [9] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 65
+2018-07-21 22:21:33,264 ERROR [9] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 65
+2018-07-21 22:21:48,393 ERROR [8] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 65
