@@ -12,7 +12,7 @@ Está compuesto y construido Siguiendo la arquitectura practicada en clase.
 
 La solución se ha hecho extrayendo y deserializando mediante Json pero igualmente dejo las tablas de la Base de datos dibujadas previamente. 
 
-(![alt text](Image/BBDD_Company.PNG "Base de Datos Web Api")
+![alt text](Image/BBDD_Company.PNG "Base de Datos Web Api")
 
 
 He eliminado varias clases que hemos definido en clase como Arquitectura básica para poder iniciar nuestra aplicación.
@@ -21,7 +21,7 @@ Yakni.- Clases que no me hacía falta utilizar para poder extraer datos de la We
 
 Log4Net.- Mi aplicación gestiona Logs para informar al usuario en cada momento donde está el fallo. 
 
-(![alt text](Image/LogError.PNG "Imágen Log")
+![alt text](Image/LogError.PNG "Imágen Log")
 
 
 Metodos.- 
