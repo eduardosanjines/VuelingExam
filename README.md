@@ -1,6 +1,6 @@
 # VuelingExam
 
-1. He utilizado Architecture DDD for Vueling Examn.
+# He utilizado Architecture DDD for Vueling Examn.
 
 Las operaciones que nos demanda la empresa son estas:
   - GetById (Buscar un cliente por Id)
@@ -17,27 +17,29 @@ La solución se ha hecho extrayendo y deserializando mediante Json pero igualmen
 
 He eliminado varias clases que hemos definido en clase como Arquitectura básica para poder iniciar nuestra aplicación.
 
-Yakni.- Clases que no me hacía falta utilizar para poder extraer datos de la WebApi.
+# Yakni.- Clases que no me hacía falta utilizar para poder extraer datos de la WebApi.
 
-Log4Net.- Mi aplicación gestiona Logs para informar al usuario en cada momento donde está el fallo. 
+# Log4Net.- Mi aplicación gestiona Logs para informar al usuario en cada momento donde está el fallo. 
 
 ![alt text](Image/LogError.PNG "Imágen Log")
 
 
-Metodos.- 
+# Metodos.- 
   - GetAll (Muestra todos los usuarios de la WebApi)
   - GetById (Muestra usuarios filtrados por Id)
   - GetByUserName (Muestra los usuarios por userName).
   
-Las clases: 
+# Las clases: 
   - ClientsApiController.- Gestiona la busqueda de Clientes filtrados por los metodos anteriores.
   - PoliciesApiController .- Gestiona la busqueda de Policies filtrados por los metodos anteriores. 
   
-Ficheros de Configuración:
+# Ficheros de Configuración:
   - Ficheros de configuración para ApiController y Excepciones. 
   
-DLL Utilizadas:
-
+# Excepciones: VuelingException
+- Excepcion personalizada para nuestra aplicación (gestionada en todas las clases). 
+  
+# DLL Utilizadas:
 - Json.
 - Linq.
 
