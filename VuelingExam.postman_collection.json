@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "4f1f5d0e-01da-4e73-9117-f9d5da56b3d5",
+		"name": "VuelingExam",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ClientsApi GetAll",
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\t\"Username\": \"Pepe\",\n\t\"Password\": \"123456\"\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:55453/api/ClientsApi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55453",
+					"path": [
+						"api",
+						"ClientsApi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ClientsApi GetById",
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\t\"Username\": \"Pepe\",\n\t\"Password\": \"123456\"\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:55453/api/ClientsApi/a0ece5db-cd14-4f21-812f-966633e7be86",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55453",
+					"path": [
+						"api",
+						"ClientsApi",
+						"a0ece5db-cd14-4f21-812f-966633e7be86"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ClientsApi GetByUserName",
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\t\"Username\": \"Pepe\",\n\t\"Password\": \"123456\"\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:55453/api/ClientsApi?username=Ophelia",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55453",
+					"path": [
+						"api",
+						"ClientsApi"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "Ophelia"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PoliciesApi GetAll",
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\t\"Username\": \"Pepe\",\n\t\"Password\": \"123456\"\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:55453/api/PoliciesApi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55453",
+					"path": [
+						"api",
+						"PoliciesApi"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
