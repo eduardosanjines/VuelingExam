@@ -10,7 +10,9 @@ Las operaciones que nos demanda la empresa son estas:
 En el proyecto he trabajado con ficheros de recursos y ficheros de configuración (Webconfig).
 Está compuesto y construido Siguiendo la arquitectura practicada en clase. 
 
-(![alt text](Image/BBDD_Company.PNG "Info Fichero Log")
+La solución se ha hecho extrayendo y deserializando mediante Json pero igualmente dejo las tablas de la Base de datos dibujadas previamente. 
+
+(![alt text](Image/BBDD_Company.PNG "Base de Datos Web Api")
 
 
 He eliminado varias clases que hemos definido en clase como Arquitectura básica para poder iniciar nuestra aplicación.
@@ -18,6 +20,9 @@ He eliminado varias clases que hemos definido en clase como Arquitectura básica
 Yakni.- Clases que no me hacía falta utilizar para poder extraer datos de la WebApi.
 
 Log4Net.- Mi aplicación gestiona Logs para informar al usuario en cada momento donde está el fallo. 
+
+(![alt text](Image/LogError.PNG "Imágen Log")
+
 
 Metodos.- 
   - GetAll (Muestra todos los usuarios de la WebApi)
