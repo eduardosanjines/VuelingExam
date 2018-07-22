@@ -14,7 +14,6 @@ using VuelingExam.Application.Services;
 using VuelingExam.Application.Services.Contracts;
 using VuelingExam.Common.Layer;
 using VuelingExam.Domain.Entities;
-using VuelingExam.Infrastructure.Repository.Repository;
 
 namespace VuelingExam.Facade.Api.Controllers
 {
@@ -22,12 +21,11 @@ namespace VuelingExam.Facade.Api.Controllers
     {
         LogMan log = new LogMan();
         static HttpClient client;
-        DataSet resd = new DataSet();
         static HttpResponseMessage resClients;
         static HttpResponseMessage resPolicies;
         //List<Object> lClients = new List<object>();
         //List<Object> lPolicies = new List<object>();
-        //List<Object> nuevaLista = new List<Object>();
+        List<Object> nuevaLista = new List<Object>();
 
         public PoliciesApiController()
         {
@@ -58,50 +56,41 @@ namespace VuelingExam.Facade.Api.Controllers
                     DataTable dataTableClients = dataSetClients.Tables["clients"];
                     DataTable dataTablePolicies = dataSetPolicies.Tables["policies"];
 
-                    
+                    for (int i = 0; i < dataTablePolicies.Rows.Count; i++)
+                    {
+                        Object oClients = dataTableClients.Rows[i]["id"];
+                        Object oPolicies = dataTablePolicies.Rows[i]["clientId"];
 
+                        List<Object> listaC = new List<object> {
+                            oClients
+                        };
+                        List<Object> listaP = new List<object>
+                        {
+                            //listaC.Add(oClients);
+                            oPolicies
+                        };
+                        if (listaP.SequenceEqual(listaC))
 
-                    DataRelation dataRelation = new DataRelation("idClients", dataTableClients.Columns["id"],
-                        dataTablePolicies.Columns["clientId"]
-                        );
+                            log.LogDebug("Hemos encontrado el mismo Id");
 
-                    resd.Relations.Add(dataRelation);
+                        else log.LogDebug("No hemos encontrado el mismo id de Cliente en Policies");
 
-                    //for (int i = 0; i < dataTablePolicies.Rows.Count; i++)
-                    //{
-                    //    Object oClients = dataTableClients.Rows[i]["id"];
-                    //    Object oPolicies = dataTablePolicies.Rows[i]["clientId"];
-
-                    //    if (oPolicies == oClients) {
-
-                    //        oClients = oPolicies;
-                    //        //lClients.Add(oClients);
-                    //        //lPolicies.Add(oPolicies);
-                    //        //nuevaLista.Add(new PoliciesDto(oClients, oPolicies));
-                    //    }
-                    // }
-                    //foreach (DataRow cl in dataTableClients.Rows)
-                    //{
-                    //    lClients.Add(cl);
-                    //}
-                    //foreach (DataRow pl in dataTablePolicies.Rows)
-                    //{
-                    //    lPolicies.Add(pl);
-                    //}
-
-               }
-                else {
+                    }
+                }
+                else
+                {
                     log.checkHttpStatus();
 
                 }
 
+                
             }
             catch (Exception ex) {
                 log.LogError(ex);
                 throw new VuelingException("", ex);
             }
 
-            return resd;
+            return nuevaLista;
 
         }
 

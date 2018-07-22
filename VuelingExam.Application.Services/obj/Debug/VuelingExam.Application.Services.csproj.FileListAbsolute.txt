@@ -7,10 +7,6 @@ C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Domain.Entities.dll
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Infrastructure.Repository.Contracts.dll
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Infrastructure.Repository.dll
-C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Common.Layer.dll
-C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\EntityFramework.dll
-C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\Newtonsoft.Json.dll
-C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\log4net.dll
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Application.Dto.pdb
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Application.Services.Contracts.pdb
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Domain.Entities.pdb
@@ -20,10 +16,6 @@ C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\AutoMapper.pdb
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\AutoMapper.xml
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\System.ValueTuple.xml
-C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\VuelingExam.Common.Layer.pdb
-C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\EntityFramework.xml
-C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\Newtonsoft.Json.xml
-C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\bin\Debug\log4net.xml
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\obj\Debug\VuelingExam.Application.Services.csprojAssemblyReference.cache
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\obj\Debug\VuelingExam.Application.Services.Properties.RServices.resources
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Application.Services\obj\Debug\VuelingExam.Application.Services.csproj.GenerateResource.cache

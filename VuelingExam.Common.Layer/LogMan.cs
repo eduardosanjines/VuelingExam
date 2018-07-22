@@ -38,10 +38,10 @@ namespace VuelingExam.Common.Layer
             Console.WriteLine("Info");
             Thread.Sleep(TimeSpan.FromSeconds(secs)); // Sleep some secs
         }
-        public void LogDebug(Exception ex)
+        public void LogDebug(string s)
         {
             var secs = 3;
-            Console.WriteLine(ex);
+            log.Debug(s);
             Thread.Sleep(TimeSpan.FromSeconds(secs)); // Sleep some secs
         }
 
