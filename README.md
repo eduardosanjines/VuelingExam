@@ -10,7 +10,7 @@ Las operaciones que nos demanda la empresa son estas:
 En el proyecto he trabajado con ficheros de recursos y ficheros de configuración (Webconfig).
 Está compuesto y construido Siguiendo la arquitectura practicada en clase. 
 
-![alt tag](https://drive.google.com/open?id=1XmmvKfFacWAAWJa2byTXoaL0CU3AC60B "Info Fichero Log")
+(![alt text](Image/BBDD_Company.PNG "Info Fichero Log")
 
 
 He eliminado varias clases que hemos definido en clase como Arquitectura básica para poder iniciar nuestra aplicación.
