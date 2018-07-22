@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -21,12 +22,12 @@ namespace VuelingExam.Facade.Api.Controllers
     {
         LogMan log = new LogMan();
         static HttpClient client;
+        DataSet resd = new DataSet();
         static HttpResponseMessage resClients;
         static HttpResponseMessage resPolicies;
-        List<Object> lClients = new List<object>();
-        List<Object> lPolicies = new List<object>();
-        List<Object> lnqClients = new List<object>();
-        List<Object> lnqPolicies = new List<object>();
+        //List<Object> lClients = new List<object>();
+        //List<Object> lPolicies = new List<object>();
+        //List<Object> nuevaLista = new List<Object>();
 
         public PoliciesApiController()
         {
@@ -40,7 +41,6 @@ namespace VuelingExam.Facade.Api.Controllers
         // GET: api/PoliciesApi
         public async Task<Object> GetAll()
         {
-
             resClients = client.GetAsync(WebConfigurationManager.AppSettings["clientsWeb"]).Result;
             resClients.EnsureSuccessStatusCode();
             resPolicies = client.GetAsync(WebConfigurationManager.AppSettings["policiesWeb"]).Result;
@@ -58,27 +58,38 @@ namespace VuelingExam.Facade.Api.Controllers
                     DataTable dataTableClients = dataSetClients.Tables["clients"];
                     DataTable dataTablePolicies = dataSetPolicies.Tables["policies"];
 
-                    foreach (DataRow cl in dataTableClients.Rows)
-                    {
-                        lClients.Add(cl);
+                    
 
-                    }
-                    foreach (DataRow pl in dataTablePolicies.Rows)
-                    {
-                        lPolicies.Add(pl);
-                    }
 
-                    //lnqClients = lClients.Except(lPolicies).ToList();
-                    //lnqPolicies = lPolicies.Except(lClients).ToList();
+                    DataRelation dataRelation = new DataRelation("idClients", dataTableClients.Columns["id"],
+                        dataTablePolicies.Columns["clientId"]
+                        );
 
-                    if (lPolicies.Contains("clientId") == lPolicies.Contains("id"))
-                    {
-                        //I can't compare List
-                        lClients = lPolicies;
+                    resd.Relations.Add(dataRelation);
 
-                    }
+                    //for (int i = 0; i < dataTablePolicies.Rows.Count; i++)
+                    //{
+                    //    Object oClients = dataTableClients.Rows[i]["id"];
+                    //    Object oPolicies = dataTablePolicies.Rows[i]["clientId"];
 
-                }
+                    //    if (oPolicies == oClients) {
+
+                    //        oClients = oPolicies;
+                    //        //lClients.Add(oClients);
+                    //        //lPolicies.Add(oPolicies);
+                    //        //nuevaLista.Add(new PoliciesDto(oClients, oPolicies));
+                    //    }
+                    // }
+                    //foreach (DataRow cl in dataTableClients.Rows)
+                    //{
+                    //    lClients.Add(cl);
+                    //}
+                    //foreach (DataRow pl in dataTablePolicies.Rows)
+                    //{
+                    //    lPolicies.Add(pl);
+                    //}
+
+               }
                 else {
                     log.checkHttpStatus();
 
@@ -90,7 +101,7 @@ namespace VuelingExam.Facade.Api.Controllers
                 throw new VuelingException("", ex);
             }
 
-            return lPolicies;
+            return resd;
 
         }
 
@@ -98,21 +109,6 @@ namespace VuelingExam.Facade.Api.Controllers
         public string Get(int id)
         {
             return "value";
-        }
-
-        // POST: api/PoliciesApi
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT: api/PoliciesApi/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE: api/PoliciesApi/5
-        public void Delete(int id)
-        {
         }
     }
 }
