@@ -5,3 +5,4 @@ C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Domain.Entities\obj\Debu
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Domain.Entities\obj\Debug\VuelingExam.Domain.Entities.csproj.CoreCompileInputs.cache
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Domain.Entities\obj\Debug\VuelingExam.Domain.Entities.dll
 C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Domain.Entities\obj\Debug\VuelingExam.Domain.Entities.pdb
+C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Domain.Entities\obj\Debug\VuelingExam.Domain.Entities.csprojAssemblyReference.cache

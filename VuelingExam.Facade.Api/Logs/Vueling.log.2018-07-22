@@ -1,0 +1,471 @@
+﻿2018-07-22 17:22:45,944 ERROR [8] VuelingExam.Common.Layer.LogMan.LogError - System.InvalidCastException: No se puede convertir un objeto de tipo 'System.Data.DataColumn' al tipo 'System.Data.DataTable'.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 65
+2018-07-22 17:27:46,984 ERROR [9] VuelingExam.Common.Layer.LogMan.LogError - System.InvalidCastException: No se puede convertir un objeto de tipo 'System.Data.DataColumn' al tipo 'System.Data.DataTable'.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 65
+2018-07-22 17:30:16,535 ERROR [9] VuelingExam.Common.Layer.LogMan.LogError - System.InvalidCastException: No se puede convertir un objeto de tipo 'System.Data.DataColumn' al tipo 'System.Data.DataTable'.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 65
+2018-07-22 17:32:44,682 ERROR [9] VuelingExam.Common.Layer.LogMan.LogError - System.InvalidCastException: No se puede convertir un objeto de tipo 'System.Data.DataColumn' al tipo 'System.Data.DataTable'.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 65
+2018-07-22 17:37:21,172 ERROR [12] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 69
+2018-07-22 17:38:40,035 ERROR [9] VuelingExam.Common.Layer.LogMan.LogError - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 69
+2018-07-22 18:00:58,098 ERROR [10] VuelingExam.Common.Layer.LogMan.LogError - Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: c. Path '', line 0, position 0.
+   en Newtonsoft.Json.JsonTextReader.ParseValue()
+   en Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   en Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__8.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 62
+2018-07-22 19:39:55,194 ERROR [5] VuelingExam.Common.Layer.LogMan.LogError - System.ArgumentNullException: El argumento 'column' no puede ser nulo.
+Nombre del parámetro: column
+   en System.Data.DataKey..ctor(DataColumn[] columns, Boolean copyColumns)
+   en System.Data.DataRelation.Create(String relationName, DataColumn[] parentColumns, DataColumn[] childColumns, Boolean createConstraints)
+   en System.Data.DataRelation..ctor(String relationName, DataColumn parentColumn, DataColumn childColumn)
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__9.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 63
+2018-07-22 19:40:45,663 ERROR [10] VuelingExam.Common.Layer.LogMan.LogError - System.Data.InvalidConstraintException: No puede haber una relación entre tablas de diferentes DataSet.
+   en System.Data.DataRelation.CheckState()
+   en System.Data.DataRelation.Create(String relationName, DataColumn[] parentColumns, DataColumn[] childColumns, Boolean createConstraints)
+   en System.Data.DataRelation..ctor(String relationName, DataColumn parentColumn, DataColumn childColumn)
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__9.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 63
+2018-07-22 20:13:14,041 ERROR [9] VuelingExam.Common.Layer.LogMan.LogError - System.Data.InvalidConstraintException: No puede haber una relación entre tablas de diferentes DataSet.
+   en System.Data.DataRelation.CheckState()
+   en System.Data.DataRelation.Create(String relationName, DataColumn[] parentColumns, DataColumn[] childColumns, Boolean createConstraints)
+   en System.Data.DataRelation..ctor(String relationName, DataColumn parentColumn, DataColumn childColumn)
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__6.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 63
+2018-07-22 20:16:24,651 ERROR [6] VuelingExam.Common.Layer.LogMan.LogError - System.Data.InvalidConstraintException: No puede haber una relación entre tablas de diferentes DataSet.
+   en System.Data.DataRelation.CheckState()
+   en System.Data.DataRelation.Create(String relationName, DataColumn[] parentColumns, DataColumn[] childColumns, Boolean createConstraints)
+   en System.Data.DataRelation..ctor(String relationName, DataColumn[] parentColumns, DataColumn[] childColumns)
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__6.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 60
+2018-07-22 22:12:54,641 ERROR [8] VuelingExam.Common.Layer.LogMan.LogError - System.ArgumentException: La columna 'idClient' no pertenece a la tabla policies.
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en VuelingExam.Facade.Api.Controllers.PoliciesApiController.<GetAll>d__6.MoveNext() en C:\Users\ETUMAYLLE\source\repos\VuelingExam\VuelingExam.Facade.Api\Controllers\PoliciesApiController.cs:línea 74
+2018-07-22 22:33:51,861 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:33:54,892 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:33:57,893 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:00,893 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:03,895 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:06,897 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:09,897 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:12,899 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:15,899 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:18,901 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:21,902 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:24,904 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:27,904 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:30,906 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:33,907 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:36,907 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:39,909 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:42,909 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:34:45,910 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No contiene el mismo parametro
+2018-07-22 22:35:32,791 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:35:35,839 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:35:38,840 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:35:41,842 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:35:44,843 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:35:47,844 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:35:50,845 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:35:53,846 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:35:56,847 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:35:59,848 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:36:02,849 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:36:05,850 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:36:08,850 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:36:11,851 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:36:14,852 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:36:17,853 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:36:20,854 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:36:23,856 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:36:26,857 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:37:41,206 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:37:44,256 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:37:47,258 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:37:50,259 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:37:53,260 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:37:56,261 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:37:59,261 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:02,262 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:05,263 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:08,264 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:11,265 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:14,266 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:17,267 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:20,268 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:23,269 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:26,270 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:29,271 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:32,271 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:35,272 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:38,273 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:41,274 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:44,276 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:47,276 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:50,277 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:53,278 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:56,279 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:38:59,281 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:39:02,282 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:39:05,284 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:39:08,285 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:39:11,286 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:39:45,949 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:39:48,973 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:39:51,974 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:39:54,976 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:39:57,976 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:00,977 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:03,978 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:06,978 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:09,980 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:12,981 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:15,981 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:18,983 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:21,984 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:24,985 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:27,985 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:30,987 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:33,987 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:36,988 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:39,989 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:42,989 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:45,990 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:48,991 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:51,991 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:54,993 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:40:57,993 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:41:00,995 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:41:03,996 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:41:06,997 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:41:09,998 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:41:12,999 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:41:16,000 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:41:19,001 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:41:22,002 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:41:25,003 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:41:28,004 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 22:54:25,443 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:54:28,468 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:54:31,469 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:54:34,470 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:54:37,471 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:54:40,473 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:54:43,474 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:54:46,475 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:54:49,476 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:54:52,477 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:54:55,478 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:54:58,479 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:01,480 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:04,480 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:07,481 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:10,482 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:13,483 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:16,484 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:19,484 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:22,485 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:25,486 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:28,487 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:31,487 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:34,488 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:37,489 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:40,490 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:43,492 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:46,493 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:49,494 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:52,495 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:55,497 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:55:58,498 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:56:01,499 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:56:04,500 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:56:32,661 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:56:35,702 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:56:38,703 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:56:41,705 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:56:44,706 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:56:47,708 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:56:50,708 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:56:53,709 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:56:56,711 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:56:59,711 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:02,712 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:05,713 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:08,714 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:11,714 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:14,715 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:17,717 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:20,717 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:23,718 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:26,719 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:29,720 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:32,722 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:35,723 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:38,724 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:41,725 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:44,725 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:47,727 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:50,728 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:53,729 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:56,731 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:57:59,732 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:02,733 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:05,734 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:08,736 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:11,737 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:14,737 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:17,738 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:20,739 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:23,740 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:26,741 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:29,742 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:32,743 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:35,744 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:38,745 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:41,747 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:44,748 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:47,750 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:50,750 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:53,752 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:56,752 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:58:59,753 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:59:02,754 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:59:05,755 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:59:08,756 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:59:11,757 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:59:14,758 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:59:17,760 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:59:20,761 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:59:23,761 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 22:59:26,762 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:08:19,111 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:08:22,137 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:08:25,139 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:08:28,139 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:08:31,141 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:08:34,141 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:08:37,143 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:08:40,144 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:08:43,145 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:08:46,146 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:08:49,146 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:08:52,147 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:08:55,149 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:08:58,150 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:09:01,151 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:09:04,152 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:09:07,152 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:09:10,153 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:09:13,154 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:09:16,155 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:09:19,157 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:09:22,158 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:09:25,159 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:09:28,160 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - NO hay igual
+2018-07-22 23:16:59,529 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:02,553 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:05,554 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:08,555 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:11,556 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:14,557 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:17,559 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:20,560 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:23,561 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:26,563 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:29,564 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:32,565 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:35,565 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:38,566 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:41,567 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:44,568 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:47,569 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:50,569 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:53,571 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:56,572 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:17:59,573 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:02,574 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:05,575 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:08,576 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:11,577 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:14,578 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:17,579 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:20,580 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:23,581 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:26,582 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:29,583 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:32,584 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:35,585 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:38,586 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:41,587 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:44,588 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:47,589 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:50,590 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:53,590 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:56,591 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:18:59,592 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:02,593 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:05,594 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:08,595 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:11,596 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:14,597 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:17,598 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:20,599 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:23,599 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:26,600 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:29,601 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:32,602 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:35,604 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:38,605 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:41,606 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:44,606 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:47,607 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:50,608 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:53,609 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:56,610 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:19:59,611 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:02,612 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:05,614 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:08,615 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:11,616 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:14,616 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:17,617 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:20,617 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:23,618 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:26,619 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:29,620 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:32,621 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:35,623 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:38,624 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:41,625 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:44,626 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:47,629 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:50,631 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:53,632 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:56,634 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:20:59,635 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:02,636 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:05,636 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:08,638 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:11,638 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:14,640 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:17,641 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:20,641 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:23,642 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:26,643 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:29,644 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:32,645 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:35,646 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:38,646 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:41,647 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:44,648 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:47,649 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:50,649 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:53,650 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:56,650 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:21:59,652 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:02,653 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:05,654 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:08,655 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:11,656 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:14,657 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:17,658 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:20,659 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:23,660 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:26,660 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:29,661 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:32,662 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:35,663 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:38,665 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:41,666 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:44,666 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:47,667 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:50,669 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:53,670 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:56,671 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:22:59,672 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:02,673 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:05,674 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:08,676 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:11,678 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:14,678 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:17,679 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:20,680 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:23,681 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:26,682 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:29,684 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:32,685 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:35,686 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:38,687 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:41,689 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:44,689 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:47,690 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:50,691 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:53,692 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:56,693 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:23:59,693 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:02,695 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:05,696 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:08,697 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:11,698 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:14,699 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:17,700 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:20,700 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:23,702 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:26,703 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:29,704 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:32,705 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:35,706 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:38,707 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:41,707 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:44,708 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:47,709 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:50,710 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:53,711 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:56,712 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:24:59,713 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:02,714 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:05,716 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:08,717 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:11,717 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:14,719 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:17,719 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:20,721 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:23,722 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:26,722 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:29,724 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:32,725 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:35,726 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:38,727 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:41,727 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:44,728 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:47,729 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:50,730 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:53,731 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:56,733 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:25:59,733 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:26:02,735 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:26:05,736 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:26:08,737 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:26:11,738 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:26:14,738 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:26:17,740 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:26:20,741 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:26:23,742 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:26:26,742 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:26:29,743 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:26:32,744 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:26:35,744 DEBUG [8] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:55:49,610 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:55:52,646 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:55:55,646 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:55:58,648 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:56:01,648 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:57:35,160 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:57:38,183 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:57:41,185 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:57:44,185 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:57:47,186 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:57:50,187 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:57:53,188 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:57:56,189 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:57:59,190 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies
+2018-07-22 23:58:02,191 DEBUG [9] VuelingExam.Common.Layer.LogMan.LogDebug - No hemos encontrado el mismo id de Cliente en Policies

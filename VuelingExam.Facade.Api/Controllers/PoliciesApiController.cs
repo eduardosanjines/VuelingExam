@@ -23,8 +23,6 @@ namespace VuelingExam.Facade.Api.Controllers
         static HttpClient client;
         static HttpResponseMessage resClients;
         static HttpResponseMessage resPolicies;
-        //List<Object> lClients = new List<object>();
-        //List<Object> lPolicies = new List<object>();
         List<Object> nuevaLista = new List<Object>();
 
         public PoliciesApiController()
@@ -58,23 +56,22 @@ namespace VuelingExam.Facade.Api.Controllers
 
                     for (int i = 0; i < dataTablePolicies.Rows.Count; i++)
                     {
-                        Object oClients = dataTableClients.Rows[i]["id"];
                         Object oPolicies = dataTablePolicies.Rows[i]["clientId"];
-
-                        List<Object> listaC = new List<object> {
-                            oClients
-                        };
                         List<Object> listaP = new List<object>
                         {
-                            //listaC.Add(oClients);
                             oPolicies
                         };
-                        if (listaP.SequenceEqual(listaC))
 
-                            log.LogDebug("Hemos encontrado el mismo Id");
+                        for (int x = 0; x < dataTableClients.Rows.Count; i++)
+                        {
 
-                        else log.LogDebug("No hemos encontrado el mismo id de Cliente en Policies");
-
+                            Object oClients = dataTableClients.Rows[i]["id"];
+                            List<Object> listaC = new List<object> {
+                            oClients
+                        };
+                       
+                            nuevaLista.Add(new PoliciesDto(listaC, listaP));
+                        }
                     }
                 }
                 else
